@@ -1,0 +1,61 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "clientFramework": "react",
+    "serverPort": "8080",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": false,
+    "withAdminUi": true,
+    "baseName": "store",
+    "buildTool": "gradle",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en"],
+    "messageBroker": false,
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "skipClient": false,
+    "testFrameworks": ["protractor"],
+    "websocket": false,
+    "enableGradleEnterprise": false,
+    "gradleEnterpriseHost": "",
+    "applicationType": "gateway",
+    "packageName": "com.jhipster.demo.store",
+    "packageFolder": "com/jhipster/demo/store",
+    "jhipsterVersion": "7.2.0",
+    "skipServer": false,
+    "clientPackageManager": "npm",
+    "dtoSuffix": "DTO",
+    "entitySuffix": "",
+    "reactive": true,
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "applicationIndex": 0,
+    "applications": {
+      "invoice": {
+        "serverPort": "8081",
+        "applicationIndex": 1
+      },
+      "notification": {
+        "serverPort": "8082",
+        "applicationIndex": 2
+      }
+    },
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "blueprints": [],
+    "otherModules": [],
+    "pages": [],
+    "nativeLanguage": "en",
+    "creationTimestamp": 1632048581560,
+    "jwtSecretKey": "MzQwOTZiMjEyNDcxOTdjMWQ4ZTAzNGY3OWZhZDBiY2JmZDlkODZiYmY2NjI5OWFkZGI1MTIzMWYxMmFjNWNjNzkyNmFlNGFmMjI5Zjk5NTM3Mzk3OGNjNTc4NGIzNjQzYTk0ZTcwYmVjZDc1MGI2ZTlkN2I3MTkwOWJhN2UzMGM=",
+    "devServerPort": 9060,
+    "entities": ["ProductCategory", "Notification", "ProductOrder", "Invoice", "Customer", "Product", "Shipment", "OrderItem"],
+    "lastLiquibaseTimestamp": 1632049061000
+  }
+}
